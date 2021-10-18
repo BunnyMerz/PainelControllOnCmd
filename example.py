@@ -21,7 +21,9 @@ tree_of_options = {
         "Interface Arguments": lambda : print(
 """Interface recives a tree that follows the follwoing format:
 tree = {
-    PromptString:FunctionOrTree
+    PromptString:FunctionOrTree,
+    PromptString:FunctionOrTree,
+    ...
     }
 
 PromptString is always a string
