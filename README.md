@@ -13,6 +13,7 @@ tree = {
 ```
 
 PromptString is always a string
+
 FunctionOrTree may be another {tree} or a function.
 
 Example:
@@ -50,6 +51,7 @@ Inputting 2 will open it to:
 Inputting all of the other options will result in a print() onto the Cmd.
 
 Note¹: `[0] Exit` and `[0] Go back` are implicit, no need to put this option in the tree.
+
 Note²: Any error occurred inside the menu will make the menu `Gracefully stop` and not show any error.
 
 To start the menu, simply call Interface's run() method.
